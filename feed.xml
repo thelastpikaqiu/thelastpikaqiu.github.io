@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-05-16T07:28:50+00:00</updated><id>/feed.xml</id><entry><title type="html">Bootstrap下拉菜单</title><link href="/2024/05/16/Bootstrap%E4%B8%8B%E6%8B%89%E8%8F%9C%E5%8D%95.html" rel="alternate" type="text/html" title="Bootstrap下拉菜单" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/Bootstrap%E4%B8%8B%E6%8B%89%E8%8F%9C%E5%8D%95</id><content type="html" xml:base="/2024/05/16/Bootstrap%E4%B8%8B%E6%8B%89%E8%8F%9C%E5%8D%95.html"><![CDATA[<div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">主题
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">Java</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
+        </li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+        </li>
+    </ul>
+</div>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[主题 Java 数据挖掘 数据通信/网络 分离的链接]]></summary></entry><entry><title type="html">Bootstrap代码</title><link href="/2024/05/16/Bootstrap%E4%BB%A3%E7%A0%81.html" rel="alternate" type="text/html" title="Bootstrap代码" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/Bootstrap%E4%BB%A3%E7%A0%81</id><content type="html" xml:base="/2024/05/16/Bootstrap%E4%BB%A3%E7%A0%81.html"><![CDATA[<p><code>&lt;header&gt;</code> 作为内联元素被包围。</p>
+<p>如果需要把代码显示为一个独立的块元素，请使用 &lt;pre&gt; 标签：</p>
+<pre>
+    &lt;article&gt;
+        &lt;h1&gt;Article Heading&lt;/h1&gt;
+    &lt;/article&gt;
+</pre>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[&lt;header&gt; 作为内联元素被包围。 如果需要把代码显示为一个独立的块元素，请使用 &lt;pre&gt; 标签： &lt;article&gt; &lt;h1&gt;Article Heading&lt;/h1&gt; &lt;/article&gt;]]></summary></entry><entry><title type="html">Bootstrap导航元素</title><link href="/2024/05/16/Bootstrap%E5%AF%BC%E8%88%AA%E5%85%83%E7%B4%A0.html" rel="alternate" type="text/html" title="Bootstrap导航元素" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/Bootstrap%E5%AF%BC%E8%88%AA%E5%85%83%E7%B4%A0</id><content type="html" xml:base="/2024/05/16/Bootstrap%E5%AF%BC%E8%88%AA%E5%85%83%E7%B4%A0.html"><![CDATA[<p>标签式的导航菜单</p>
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#">Home</a></li>
+  <li><a href="#">SVN</a></li>
+  <li><a href="#">iOS</a></li>
+  <li><a href="#">VB.Net</a></li>
+  <li><a href="#">Java</a></li>
+  <li><a href="#">PHP</a></li>
+</ul>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[标签式的导航菜单 Home SVN iOS VB.Net Java PHP]]></summary></entry><entry><title type="html">Bootstrap按钮组</title><link href="/2024/05/16/Bootstrap%E6%8C%89%E9%92%AE%E7%BB%84.html" rel="alternate" type="text/html" title="Bootstrap按钮组" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/Bootstrap%E6%8C%89%E9%92%AE%E7%BB%84</id><content type="html" xml:base="/2024/05/16/Bootstrap%E6%8C%89%E9%92%AE%E7%BB%84.html"><![CDATA[<div class="btn-group">
+    <button type="button" class="btn btn-default">按钮 1</button>
+    <button type="button" class="btn btn-default">按钮 2</button>
+    <button type="button" class="btn btn-default">按钮 3</button>
+</div>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[按钮 1 按钮 2 按钮 3]]></summary></entry><entry><title type="html">Bootstrap标题</title><link href="/2024/05/16/Bootstrap%E6%A0%87%E9%A2%98.html" rel="alternate" type="text/html" title="Bootstrap标题" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/Bootstrap%E6%A0%87%E9%A2%98</id><content type="html" xml:base="/2024/05/16/Bootstrap%E6%A0%87%E9%A2%98.html"><![CDATA[<h1>我是标题1 h1</h1>
+<h2>我是标题2 h2</h2>
+<h3>我是标题3 h3</h3>
+<h4>我是标题4 h4</h4>
+<h5>我是标题5 h5</h5>
+<h6>我是标题6 h6</h6>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[我是标题1 h1 我是标题2 h2 我是标题3 h3 我是标题4 h4 我是标题5 h5 我是标题6 h6]]></summary></entry><entry><title type="html">Bootstrap表单</title><link href="/2024/05/16/Bootstrap%E8%A1%A8%E5%8D%95.html" rel="alternate" type="text/html" title="Bootstrap表单" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/Bootstrap%E8%A1%A8%E5%8D%95</id><content type="html" xml:base="/2024/05/16/Bootstrap%E8%A1%A8%E5%8D%95.html"><![CDATA[<form role="form">
+  <div class="form-group">
+    <label for="name">名称</label>
+    <input type="text" class="form-control" id="name" placeholder="请输入名称" />
+  </div>
+  <div class="form-group">
+    <label for="inputfile">文件输入</label>
+    <input type="file" id="inputfile" />
+    <p class="help-block">这里是块级帮助文本的实例。</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" />请打勾
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">提交</button>
+</form>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[名称 文件输入 这里是块级帮助文本的实例。 请打勾 提交]]></summary></entry><entry><title type="html">Bootstrap表格</title><link href="/2024/05/16/Bootstrap%E8%A1%A8%E6%A0%BC.html" rel="alternate" type="text/html" title="Bootstrap表格" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/Bootstrap%E8%A1%A8%E6%A0%BC</id><content type="html" xml:base="/2024/05/16/Bootstrap%E8%A1%A8%E6%A0%BC.html"><![CDATA[<table class="table">
+  <caption>基本的表格布局</caption>
+  <thead>
+    <tr>
+      <th>名称</th>
+      <th>城市</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tanmay</td>
+      <td>Bangalore</td>
+    </tr>
+    <tr>
+      <td>Sachin</td>
+      <td>Mumbai</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[基本的表格布局 名称 城市 Tanmay Bangalore Sachin Mumbai]]></summary></entry><entry><title type="html">Bootstrap辅助类</title><link href="/2024/05/16/Bootstrap%E8%BE%85%E5%8A%A9%E7%B1%BB.html" rel="alternate" type="text/html" title="Bootstrap辅助类" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/Bootstrap%E8%BE%85%E5%8A%A9%E7%B1%BB</id><content type="html" xml:base="/2024/05/16/Bootstrap%E8%BE%85%E5%8A%A9%E7%B1%BB.html"><![CDATA[<p>关闭图标实例
+  <button type="button" class="close" aria-hidden="true">
+    &times;
+  </button>
+</p>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[关闭图标实例 &times;]]></summary></entry><entry><title type="html">Bootstrap输入框组</title><link href="/2024/05/16/Bootstrap%E8%BE%93%E5%85%A5%E6%A1%86%E7%BB%84.html" rel="alternate" type="text/html" title="Bootstrap输入框组" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/Bootstrap%E8%BE%93%E5%85%A5%E6%A1%86%E7%BB%84</id><content type="html" xml:base="/2024/05/16/Bootstrap%E8%BE%93%E5%85%A5%E6%A1%86%E7%BB%84.html"><![CDATA[<div style="padding: 100px 100px 10px;">
+    <form class="bs-example bs-example-form" role="form">
+        <div class="input-group">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="form-control" placeholder="twitterhandle" />
+        </div>
+        <br />
+        <div class="input-group">
+            <input type="text" class="form-control" />
+            <span class="input-group-addon">.00</span>
+        </div>
+        <br />
+        <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input type="text" class="form-control" />
+            <span class="input-group-addon">.00</span>
+        </div>
+    </form>
+</div>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[@ .00 $ .00]]></summary></entry><entry><title type="html">Bootstrap面包屑导航</title><link href="/2024/05/16/Bootstrap%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA.html" rel="alternate" type="text/html" title="Bootstrap面包屑导航" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>/2024/05/16/Bootstrap%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA</id><content type="html" xml:base="/2024/05/16/Bootstrap%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA.html"><![CDATA[<ul class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">2013</a></li>
+    <li class="active">十一月</li>
+</ul>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[Home 2013 十一月]]></summary></entry></feed>
